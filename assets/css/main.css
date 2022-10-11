@@ -2,5 +2,14 @@
 * {
 	font-family: 'Inter';
 	box-sizing: border-box;
+}
 
+html, #__nuxt, #__layout, body, .wrapper, .asideblock{
+  height: 100%;
+}
+
+@media(max-width: 1800px) {
+	html {
+		font-size: 15.5px;
+	}
 }

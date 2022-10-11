@@ -1,10 +1,14 @@
 <template>
-	<div>
+	<div class ="wrapper">
 		<headercom/>
-		<asidecom/>
-		<createcom/>
-		<createcom/>
-		<createcom/>
+		<div class ="main__content">
+			<asidecom/>
+			<div class ="wrapper__create">
+				<createcom/>
+				<createcom/>
+				<createcom/>
+			</div>
+		</div>
 	</div>
 </template>
 
@@ -28,4 +32,15 @@ export default {
 	margin: 0;
 	padding: 0;
 	}
+	.wrapper {
+		height: 100%;
+	}
+	.wrapper__create {
+	}
+	.main__content {
+		height: 100%;
+		display: flex;
+		width: 100%;
+	}
+
 </style>

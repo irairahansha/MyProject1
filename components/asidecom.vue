@@ -56,10 +56,7 @@
 
 <style scoped>
 	.asideblock {
-		display: inline-block;
 		width: 30.125rem;
-		height: 20rem;
-		border: 0.5px solid red;
 	}
 	.asideblock__content {
 		margin-top: 2.5rem;
@@ -68,19 +65,19 @@
 	.aside__ul {
 		display: flex;
 		justify-content: space-between;
-		border: 1px solid black
+		border: 0.063rem solid black
 	}
 	.aside__ul01 {
 		display: flex;
-		font-size: 20px;
-		line-height: 24px;
+		font-size: 1.25rem;
+		line-height: 1.5rem;
 	}
 	.aside__ul01__icon {
 		margin-right: 0.5rem;
 	}
 	.hrline {
 		width: 402px;
-		height: 0px;
+		height: 0;
 		border: 1px solid rgba(0, 0, 0, 0.05);
 		margin: 20px auto;
 	}

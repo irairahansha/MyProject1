@@ -9,7 +9,7 @@
 		<div class = "nav__secondary">
 			<div class = "search">
 				<img class = "search__icon" src = "~static/search-icon.svg"></img>
-				<input type = "text" size = "20" class = "search__input" value = "Поиск по проектам">
+				<input type ="text" size ="20" class ="search__input" placeholder="Поиск по проектам">
 			</div>
 			<div class = "user__profile">
 				<img class = "user__profile__icon" src = "~static/user-profile.svg">	
@@ -29,7 +29,9 @@
 		display: flex;
 		align-items: center;
 		justify-content: space-between;
+		
 		/* Настройки шрифта */
+		
 		font-family: 'Inter';
 		font-size: 1.625rem;
 		line-height: 1.375rem;
@@ -79,7 +81,9 @@
 		color: rgba(255, 255, 255, 0.5);
 		border: none;
 		font-size: 1.125rem;
-
+	}
+	input:focus {
+  		outline: none;
 	}
 	.user__profile {
 		display: flex;
