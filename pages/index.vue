@@ -34,8 +34,13 @@ export default {
 	}
 	.wrapper {
 		height: 100%;
+		display: flex;
+		flex-direction: column;
 	}
 	.wrapper__create {
+		display: flex;
+		height: 13.313rem;
+		align-items: center;
 	}
 	.main__content {
 		height: 100%;

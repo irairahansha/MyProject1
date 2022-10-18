@@ -46,6 +46,9 @@
 				</div>
 				<img src = "~assets/svg/arrow-drop-up-line.svg">
 			</ul>
+			<div class = "hrline">
+				
+			</div>
 		</div>
 	</aside>
 </template>
@@ -65,7 +68,6 @@
 	.aside__ul {
 		display: flex;
 		justify-content: space-between;
-		border: 0.063rem solid black
 	}
 	.aside__ul01 {
 		display: flex;
