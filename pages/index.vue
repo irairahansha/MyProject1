@@ -1,12 +1,19 @@
 <template>
 	<div class ="wrapper">
-		<headercom/>
 		<div class ="main__content">
 			<asidecom/>
 			<div class ="wrapper__create">
 				<createcom/>
 				<createcom/>
 				<createcom/>
+			</div>
+			<div class ="postlist">
+				<postcard/>
+				<postcard/>
+				<postcard/>
+				<postcard/>
+				<postcard/>
+				<postcard/>
 			</div>
 		</div>
 	</div>
@@ -47,5 +54,8 @@ export default {
 		display: flex;
 		width: 100%;
 	}
-
+	.postlist {
+		display: flex;
+		flex-wrap: wrap;
+	}
 </style>
