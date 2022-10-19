@@ -2,9 +2,9 @@
  <div class = "createwrapper">
  	<img src = "~assets/svg/newproject-icon.svg" class = "createicon">
  	<p class = "createtext">
- 		Создать новый проект
+ 		<b>Создать новый проект</b>
  	</p>
- 	<img src = "~assets/svg/arrow-drop-up-line.svg" class = "createbtn">
+ 	<img src = "~assets/svg/plus.svg" class = "createbtn">
  </div>
 </template>
 
@@ -19,6 +19,8 @@
 	.createicon {
 		width: 4rem;
 		height: 4rem;
+		margin-top: auto;
+		margin-bottom: auto;
 	}
 	.createtext {
 		width: 16.125rem;
@@ -26,10 +28,15 @@
 		font-weight: 500;
 		size: 1.25rem;
 		color: #000;
-		margin: 1.5rem;
+		margin-top: auto;
+		margin-bottom: auto;
+		margin-left: 1.5rem;
+		margin-right: 1.5rem;
 	}
 	.createbtn {
-		margin: 1.5rem 3rem;
+		margin-right: 1.5rem;
+		margin-top: auto;
+		margin-bottom: auto;
 		height: 1.5rem;
 		width: 1.5rem;
 	}
