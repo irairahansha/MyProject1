@@ -2,18 +2,20 @@
 	<div class ="wrapper">
 		<div class ="main__content">
 			<asidecom/>
-			<div class ="wrapper__create">
-				<createcom/>
-				<createcom/>
-				<createcom/>
-			</div>
-			<div class ="postlist">
-				<postcard/>
-				<postcard/>
-				<postcard/>
-				<postcard/>
-				<postcard/>
-				<postcard/>
+			<div class ="wrapper__content">
+				<div class ="wrapper__create">
+					<createcom/>
+					<createcom/>
+					<createcom/>
+				</div>
+				<div class ="postlist">
+					<postcard/>
+					<postcard/>
+					<postcard/>
+					<postcard/>
+					<postcard/>
+					<postcard/>
+				</div>
 			</div>
 		</div>
 	</div>
@@ -53,6 +55,10 @@ export default {
 		height: 100%;
 		display: flex;
 		width: 100%;
+	}
+	.wrapper__content {
+		display: flex;
+		flex-direction: column;
 	}
 	.postlist {
 		display: flex;
